@@ -1,13 +1,8 @@
-var i = 0;
-while (i < 3) {
-  alert(`number ${i}!`);
-  i++;
-}
-
-var input = prompt('please enter a number greater than 100');
 while (true) {
+  var input = prompt('please enter a number greater than 100');
     if (input >= 100) {
-        break;
+      break;
     }
     alert ('please input another number');
 }
+
