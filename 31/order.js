@@ -4,7 +4,7 @@ let head = {
 
 let table = {
   pen: 3,
-  __proto__: glasses
+  __proto__: head
 };
 
 let bed = {
@@ -19,3 +19,4 @@ let pockets = {
 };
 
 // Both pockets.glasses and head.glasses will be returned at the same time
+
