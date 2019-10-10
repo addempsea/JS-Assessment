@@ -1,19 +1,15 @@
-function timesTwo(obj) {
-  let valuesArr = Object.keys(obj);
-  for (let values of valuesArr) {
-    let value = obj[values];
-    if (typeof value == number ) {
-      value *= 2;
-      obj[values] = value;
+function multiplyNumeric(menu) {
+  for (let key in menu) {
+    if (typeof menu[key] == 'number') {
+      menu[key] *= 2;
     }
   }
 }
 
-let menu = {
-  width: 200,
-  height: 300,
+menu = {
+  width: 400,
+  height: 600,
   title: "My menu"
 };
 
-timesTwo(menu);
-console.log(menu);
+multiplyNumeric(menu);

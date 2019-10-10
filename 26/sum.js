@@ -4,9 +4,9 @@ var salaries = {
   Pete: 130
 };
 
-var salary = Object.values(salaries);
-function sumTotal(a, b) {
-  return a + b;
-}
+var sum = 0;
 
-sumTotal(salary);
+for (let key in salaries) {
+  sum += salaries[key];
+}
+alert(sum);
