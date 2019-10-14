@@ -22,4 +22,4 @@ function sumNumbers(inputToSum) {
   alert("The sum of all the numbers is ".concat(summedNumber));
 }
 
-//noFortyone();
+noFortyone();

@@ -4,7 +4,9 @@ var j = document.querySelector("#uu");
 function f() {
   for (let a = 0; a < o.length; a++) {
     j.innerHTML += o[a].value + "<br>";
+    o[a].value = '';
   }
+  
 }
 
 btn.addEventListener("click", f);

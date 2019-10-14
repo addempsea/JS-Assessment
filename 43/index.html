@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <form action="">
-      <label for="name">Name</label>
-      <input type="text" id="name" value="enter your name" /> <br />
-      <br />
 
-      <label for="email">Email</label>
-      <input type="text" id="email" value="enter your email" /> <br />
-      <br />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <label for="age">Age</label>
-      <input type="number" id="age" value="55" /> <br />
-      <br />
+<body>
+  <div class="form">
+    <form action="" class="form__hero">
 
-      <label for="course">Qualification</label>
-      <input type="text" id="qua" value="enter your degree" /> <br />
-      <br />
+      <div class="hero">
+        Name <br>
+        <input type="text"/>
+      </div>
 
-      <button type="button" value="click" id="btn">click me</button>
+      <div class="hero">
+        Email <br>
+        <input type="email" autofocus />
+      </div>
+
+      <div class='hero'>
+        Age <br>
+        <input type="number"/>
+      </div>
+
+      <div class="hero">
+        Qualification <br>
+        <input type="text" autocapitalize=""/>
+      </div> 
+       <br>
+
+      <button type="button" class="btn" id="btn">click to review</button>
     </form>
+  </div>
+  <div class="review">
 
-    <h2>Please review your entries</h2>
-    <p id="uu"></p>
+    <div>
+      <h2>Please review your entries</h2> <br>
+      <p id="uu"></p> <br>
+      <button type="submit">Submit</button>
+    </div>
 
-    <script src="main.js"></script>
+  </div>
+  <script src="main.js"></script>
 </body>
+
 </html>
