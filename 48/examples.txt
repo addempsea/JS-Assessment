@@ -1,0 +1,35 @@
+cloneNode(boolean deep) -
+This method is used to create a duplicate node, when overridden in a derived class.
+It returns the duplicated node.
+
+hasChildNodes()
+Returns whether this node has any children.
+This method returns true if the current node has child nodes otherwise false.
+
+isEqualNode(Node arg)
+This method tests whether two nodes are equal. 
+Returns true if the nodes are equal, false otherwise.
+
+hasAttributes()
+Returns whether this node (if it is an element) has any attributes or not.
+Returns true if any attribute is present in the specified node else returns false. This has been removed.
+
+textContent
+This specifies the textual content of a node.
+
+isSameNode(Node other)
+This method returns whether current node is the same node as the given one. 
+Returns true if the nodes are the same, false otherwise.
+
+nextSibling	
+It returns the node immediately following this node. 
+If there is no such node, this returns null.
+
+previousSibling		
+This specifies the node immediately preceding the current node.
+
+nodeType	
+It is a code representing the type of the underlying object.
+
+createDocumentType(qualifiedName, publicId, systemId)
+It creates an empty DocumentType node.
