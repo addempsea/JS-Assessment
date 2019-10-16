@@ -60,6 +60,8 @@ a {
 textarea {
     width: 400px;
     height: 200px;
+    border: 1px solid grey;
+    margin: 1em 1em;
 }
 
 #btn3 {

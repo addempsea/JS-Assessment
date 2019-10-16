@@ -1,3 +1,7 @@
+* {
+    margin: 2em auto;
+}
+
 td {
     border: 1px dashed;
     padding: 1em 1em;

@@ -1,6 +1,6 @@
 var yellow = document.querySelectorAll('.yellow');
 for (let i = 0; i < yellow.length; i++) {
-    (yellow[i].style.backgroundColor = "yellow");   
+    (yellow[i].style.backgroundColor = "yellow");
 }
 
 var blue = document.querySelectorAll('.blue');
